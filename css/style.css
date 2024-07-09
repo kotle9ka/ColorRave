@@ -55,6 +55,7 @@ header {
   flex-shrink: 0;
   background-image: url(../img/section/bg-foto/bg-img.jpg);
   padding: 60px 20px;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
@@ -91,7 +92,8 @@ header {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
-  background-color: #2d2d44;
+  background-color: #fff;
+  background-repeat: no-repeat;
 }
 
 .feature {
@@ -161,7 +163,7 @@ header {
 }
 
 .order {
-  background-image: url(../img/section/order/group-21-order-img.jpg);
+  background-image: url(../img/section/bg-foto/order-bg.png);
   padding: 40px 20px;
   background-color: #0d1321;
   text-align: center;
@@ -178,18 +180,23 @@ header {
   padding: 10px;
   margin: 10px;
   border: none;
-  border-radius: 5px;
   font-size: 1em;
 }
 
 .order input {
+  border-radius: 50px;
   width: 300px;
+}
+
+.order input:hover {
+  width: 350px;
 }
 
 .order button {
   background-color: #8e32c6;
   color: #fff;
   cursor: pointer;
+  border-radius: 16px;
 }
 
 .order button:hover {
