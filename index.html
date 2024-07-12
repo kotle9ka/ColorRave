@@ -11,7 +11,7 @@
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li class="header-nav-list-item">
-            <img src="./img/logo/logo.jpg" alt="logo" class="logo" />
+            <img src="./img/logo/logo.png" alt="logo" class="logo" />
           </li>
           <li class="header-nav-list-item">
             <a href="#" class="header-nav-link">Main page</a>
@@ -37,38 +37,49 @@
         </ul>
       </nav>
       <div class="hero">
-        <h1>ColoRawe</h1>
-        <h2>Your dream Nike</h2>
-        <p>
-          On this site you can find custom Nike sneakers of your dreams. The
-          original company caт`t create such beautiful sneakers as we do. Good
-          luck finding your way in the world of custom sneakers.
+        <img class="hero-logo" src="./img/logo/logo.png" alt="logo" />
+        <p class="logo-text">C&R</p>
+        <h1 class="hero-title">ColoRawe</h1>
+        <h2 class="hero-subtitle">Your dream Nike</h2>
+        <p class="hero-text">
+          On this site you can find custom Nike sneakers of your dreams. <br />
+          The original company caт`t create such beautiful <br />
+          sneakers as we do. <br />
+          Good luck finding your way in the world of custom sneakers.
         </p>
-        <button>Buy my Nike</button>
+        <button
+          type="button"
+          class="hero-button"
+          data-aos="zoom-in-up"
+          data-modal-open
+        >
+          Buy my Nike
+        </button>
       </div>
     </header>
-    <section class="features">
-      <div class="feature">
-        <ul class="feature-list">
-          <li class="features-list-item-1">
-            <h2>Premium Quality</h2>
-            <img
-              src="./img/section/feature/feature-1.png"
-              alt="man"
-              class="features-1"
-            />
-            <h2>Indelible paint</h2>
-            <img
-              src="./img/section/feature/feature-2.png"
-              alt="spray bottle"
-              class="features-1"
-            />
-            <h2>Fast shipping</h2>
-            <img
-              src="./img/section/feature/feature-3.png"
-              alt="car"
-              class="features-1"
-            />
+    <section class="advantage">
+      <div class="container">
+        <ul class="list advantage-list">
+          <li class="advantage-list-item">
+            <h3 class="advantage-item-text">
+              Premium <br />
+              Quality
+            </h3>
+            <img src="./img/section/feature/feature-1.png" alt="stars" />
+          </li>
+          <li class="advantage-list-item adv-li-it-mid">
+            <img src="./img/section/feature/feature-2.png" alt="paint" />
+            <h3 class="advantage-item-text">
+              Indelible <br />
+              paint
+            </h3>
+          </li>
+          <li class="advantage-list-item">
+            <h3 class="advantage-item-text">
+              Fast <br />
+              shipping
+            </h3>
+            <img src="./img/section/feature/feature-3.png" alt="truck" />
           </li>
         </ul>
       </div>
@@ -95,11 +106,11 @@
     </section>
     <section class="order">
       <form>
-        <input type="email" placeholder="Write your email" />
-        <input type="text" placeholder="Your Country" />
-        <input type="text" placeholder="Your City" />
-        <input type="addres" placeholder="Your Address" />
-        <button type="submit">Order my Nike</button>
+        <input type="order-text" placeholder="Write your email" />
+        <input type="order-text" placeholder="Your Country" />
+        <input type="order-text" placeholder="Your City" />
+        <input type="order-text" placeholder="Your Address" />
+        <button class="order-button" type="submit">Order my Nike</button>
       </form>
     </section>
     <footer>
