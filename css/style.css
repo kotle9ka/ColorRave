@@ -7,15 +7,18 @@ body {
 
 h1,
 h2,
+h3,
+h4,
 p {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -53,8 +56,15 @@ header {
   background-image: url("../img/section/bg-foto/bg-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 94px;
+  padding-top: 0px auto;
   padding-bottom: 183px;
+  padding-left: 60px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .hero-logo {
@@ -86,7 +96,6 @@ header {
 }
 .hero-button {
   background-color: #8e32c6;
-
   border: none;
   border-radius: 10px;
   padding: 20px 61px;
@@ -96,6 +105,7 @@ header {
 }
 
 .hero-button:hover {
+  background-color: #6e0bab;
   cursor: pointer;
 }
 
@@ -112,6 +122,9 @@ header {
 }
 
 .advantage-list-item {
+  width: 300px;
+  height: 396px;
+  flex-shrink: 0;
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 25px;
@@ -275,7 +288,6 @@ footer .emails p {
   border-radius: 15px;
 
   background: linear-gradient(
-
     #00e5e6 7.29%,
     #00a8f7 26.04%,
     #9a76f9 62.5%,
@@ -328,7 +340,6 @@ text {
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(
-    
     #ffe128 0%,
     #ff9b5c 30.21%,
     #ff8381 63.29%,
@@ -346,4 +357,33 @@ text {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.top-footer-list {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-footer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-line {
+  width: 1400px;
+  height: 1px;
+}
+
+.footer-logo {
+  margin-left: 1180px;
+}
+
+.footer-logo-text {
+  font-family: PT Serif;
+  font-size: 24px;
+  position: relative;
+  bottom: 10%;
+  margin-left: 1190px;
 }
