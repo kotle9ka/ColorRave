@@ -86,6 +86,7 @@ header {
 }
 .hero-button {
   background-color: #8e32c6;
+
   border: none;
   border-radius: 10px;
   padding: 20px 61px;
@@ -272,7 +273,9 @@ footer .emails p {
   height: 292px;
   flex-shrink: 0;
   border-radius: 15px;
+
   background: linear-gradient(
+
     #00e5e6 7.29%,
     #00a8f7 26.04%,
     #9a76f9 62.5%,
@@ -325,6 +328,7 @@ text {
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(
+    
     #ffe128 0%,
     #ff9b5c 30.21%,
     #ff8381 63.29%,
